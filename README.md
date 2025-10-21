@@ -25,9 +25,7 @@ This system is ideal for **educational demonstrations**, research visualizations
 
 ### **1. Physics-Based Simulation**
 - Implements **Newton’s law of universal gravitation**:  
-\[
-F = G \frac{m_1 m_2}{r^2}, \quad a = \frac{F}{m_1}
-\]
+<img src="https://latex.codecogs.com/png.latex?F%20=%20G%20\frac{m_1 m_2}{r^2},\ a%20=%20\frac{F}{m_1}" alt="Newton's law" />
 - Computes **gravitational acceleration** between all bodies at each timestep.
 - Updates **velocities and positions** in real-time using **Euler integration**.
 - Supports **multiple interacting bodies**, including planets, moons, and artificial objects.
