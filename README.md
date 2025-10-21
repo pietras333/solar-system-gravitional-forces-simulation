@@ -5,6 +5,14 @@
 
 ---
 
+
+
+https://github.com/user-attachments/assets/c3967040-159d-4805-ade5-0939e1cd8b59
+
+
+https://github.com/user-attachments/assets/d6f7754e-bff6-4bc1-b3ef-e86725f7301b
+
+
 ## 🔭 Overview
 
 This Unity project simulates celestial bodies using **physics-based formulas** and the **N-body problem**. It includes:
@@ -49,7 +57,7 @@ F = G \frac{m_1 m_2}{r^2}, \quad a = \frac{F}{m_1}
 
 | Scene | Description | Preview |
 |-------|-------------|---------|
-| 🌞 Solar System | Full solar system simulation | ![Solar System Video](assets/video_placeholder.png) |
+| 🌞 Solar System | Full solar system simulation | ![Solar System Video]() |
 | 🌑 Two Moons | Planet with two orbiting moons | ![Two Moons Video](assets/video_placeholder.png) |
 | ☿ Mercury Precession | Demonstrates precession around the Sun | ![Mercury Precession Video](assets/video_placeholder.png) |
 
