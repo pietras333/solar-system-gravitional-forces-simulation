@@ -1,80 +1,71 @@
 # 🌌 Physics-Based Solar System Simulation
 
-![Solar System Preview](assets/solar_system_preview.png)  
-*A real-time simulation of planets, moons, and orbital mechanics.*
+<div align="center">
+<img src="assets/solar_system_preview.png" alt="Solar System Preview" width="70%">
+</div>
+
+*A **real-time simulation** of planets, moons, and orbital mechanics using **Newtonian physics** and **N-body gravitational interactions**.*
 
 ---
 
-realtime editor feedback for two moon earths and their realtime forces update
+## 🔬 Scientific Overview
 
+This Unity project simulates celestial bodies based on **physics-based formulas**. It solves the **N-body problem** in real-time, allowing you to:
 
-https://github.com/user-attachments/assets/56c5b18c-8b3a-487d-8276-81a395bb475b
+- ✅ Calculate **mutual gravitational forces** between multiple bodies  
+- ✅ Predict **orbital paths** using **Euler integration**  
+- ✅ Visualize **runtime orbit predictions** dynamically  
+- ✅ Customize **planet and moon parameters**, including mass, radius, and initial velocity  
 
-
-in editor realtime feedback of config
-
-https://github.com/user-attachments/assets/2fd3bbdb-20f4-470e-a117-0edfe0626cd8
-
-solar system movement
-
-https://github.com/user-attachments/assets/c3967040-159d-4805-ade5-0939e1cd8b59
-
-mercury precession
-
-https://github.com/user-attachments/assets/97d6b7da-cfda-4151-8a99-283569723fa8
-
-
-
-
-## 🔭 Overview
-
-This Unity project simulates celestial bodies using **physics-based formulas** and the **N-body problem**. It includes:
-
-- ✅ Newtonian gravitational interactions
-- ✅ Runtime orbit prediction and visualization
-- ✅ Euler integration for position and velocity updates
-- ✅ Customizable planets, moons, and initial velocities
-
-Perfect for educational purposes, visualizing classical mechanics, or demonstrating phenomena like **Mercury’s precession**.
+This system is ideal for **educational demonstrations**, research visualizations, or exploring classical mechanics phenomena such as **Mercury’s orbital precession**.
 
 ---
 
 ## 🌟 Key Features
 
-### **Physics-Based Simulation**
-- Calculates gravitational acceleration between all bodies:
+### **1. Physics-Based Simulation**
+- Implements **Newton’s law of universal gravitation**:  
 \[
 F = G \frac{m_1 m_2}{r^2}, \quad a = \frac{F}{m_1}
 \]
-- Updates velocities and positions in **real-time** using physics formulas.
-- Supports multiple bodies (planets, moons, asteroids) interacting simultaneously.
+- Computes **gravitational acceleration** between all bodies at each timestep.
+- Updates **velocities and positions** in real-time using **Euler integration**.
+- Supports **multiple interacting bodies**, including planets, moons, and artificial objects.
 
-### **Orbit Prediction**
-- Predicts future trajectories using **Euler integration**.
-- Draws predicted paths with **LineRenderer**.
-- Supports **per-body orbit preview** or **all-body previews**.
+### **2. Orbit Prediction**
+- Predicts **future trajectories** for each body.
+- Visualizes predicted orbits with **LineRenderer**.
+- Supports **individual body preview** or **all-body orbit display**.
 
-### **Runtime Simulation**
-- Real-time movement of bodies based on gravitational forces.
-- Adjustable **timeScale** for speeding up or slowing down the simulation.
-- Works in **Editor** and **Build** for consistent visualization.
+### **3. Runtime Simulation**
+- Bodies move in real-time according to **physical forces**.
+- Adjustable **timeScale** to simulate faster or slower motion.
+- Works in both **Editor** and **Build** for consistent results.
 
-### **Customizable Bodies**
-- Set **mass**, **radius**, and **initial velocity** in the Inspector.
-- Moons can inherit **parent planet velocity** for realistic orbits.
-- Orbits can have **distinct vibrant colors** for clarity.
+### **4. Customizable Bodies**
+- Configure **mass, radius, initial velocity**, and parent-child relationships (for moons).  
+- Moons automatically inherit **parent planet velocity** if assigned.  
+- Orbit trails can be assigned **distinct vibrant colors** for clarity.
 
 ---
 
-## 🎬 Example Scenes / Videos
+## 🎬 Example Scenes
 
-| Scene | Description | Preview |
-|-------|-------------|---------|
-| 🌞 Solar System | Full solar system simulation | ![Solar System Video]() |
-| 🌑 Two Moons | Planet with two orbiting moons | ![Two Moons Video](assets/video_placeholder.png) |
-| ☿ Mercury Precession | Demonstrates precession around the Sun | ![Mercury Precession Video](assets/video_placeholder.png) |
+<div align="center">
 
-> Replace `assets/video_placeholder.png` with actual GIFs, videos, or YouTube links.
+### 🌞 Solar System
+Full solar system simulation with planets and orbit prediction.  
+<img src="https://github.com/user-attachments/assets/c3967040-159d-4805-ade5-0939e1cd8b59" alt="Solar System Video" width="90%">
+
+### 🌑 Two Moons
+Realtime simulation of a planet with two moons showing gravitational interactions.  
+<img src="https://github.com/user-attachments/assets/56c5b18c-8b3a-487d-8276-81a395bb475b" alt="Two Moons Video" width="90%">
+
+### ☿ Mercury Precession
+Demonstrates **precession of Mercury’s orbit** due to gravitational perturbations.  
+<img src="https://github.com/user-attachments/assets/97d6b7da-cfda-4151-8a99-283569723fa8" alt="Mercury Precession Video" width="90%">
+
+</div>
 
 ---
 
@@ -82,7 +73,7 @@ F = G \frac{m_1 m_2}{r^2}, \quad a = \frac{F}{m_1}
 
 ### **Requirements**
 - Unity 2020.3 or higher  
-- Works in **Editor** and **Build**
+- Compatible with both **Editor** and **Build** environments
 
 ### **Installation**
 ```bash
