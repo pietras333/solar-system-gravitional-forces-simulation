@@ -5,6 +5,12 @@
 
 ---
 
+realtime editor feedback for two moon earths and their realtime forces update
+
+
+https://github.com/user-attachments/assets/56c5b18c-8b3a-487d-8276-81a395bb475b
+
+
 in editor realtime feedback of config
 
 https://github.com/user-attachments/assets/2fd3bbdb-20f4-470e-a117-0edfe0626cd8
