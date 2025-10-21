@@ -1,7 +1,7 @@
 # 🌌 Physics-Based Solar System Simulation
 
 <div align="center">
-<img src="assets/solar_system_preview.png" alt="Solar System Preview" width="70%">
+<img src="/solar_system_preview.png" alt="Solar System Preview" width="70%">
 </div>
 
 *A **real-time simulation** of planets, moons, and orbital mechanics using **Newtonian physics** and **N-body gravitational interactions**.*
